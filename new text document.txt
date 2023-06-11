@@ -1,0 +1,29 @@
+новый текстовый документ
+
+wget ИМЯ ССЫЛКИ
+ls -n является ли фаил ссылкой
+
+Чтобы создать ссылку на файл, используйте команду ln -s:
+ первым параметром укажите исходный файл, 
+а вторым — имя ссылки.
+yan@thinkpad270:~/work2$ ln -s /usr/bin/python3 python
+yan@thinkpad270:~/work2$ ls -n
+итого 0
+lrwxrwxrwx 1 1000 1000 24 ноя 14 20:24 data.csv -> /home/yan/work1/data.csv
+lrwxrwxrwx 1 1000 1000 16 ноя 14 20:29 python -> /usr/bin/python3
+
+cat command_line.csv | wc -1
+
+cp datasets/command_line.csv tmp/command_line.csv
+
+cat command_line.csv| grep https
+
+cat command_line.csv| grep https > new_command_line1.csv
+
+passwod 10102009zXc%
+
+https://github.com/SergeyMet1106/first-project.git
+
+git remote set-url origin https://github.com/SergeyMet1106/first-project.git
+
+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
